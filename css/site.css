@@ -20,7 +20,8 @@ html {
 ---------------*/
 
 #home .masthead {
-  background-image: url(../media/img/bg.png);
+  /*background-image: url(../media/img/bg.png);*/
+  background-repeat:none;
   margin: 0em;
   padding: 5rem 0rem;
 }
