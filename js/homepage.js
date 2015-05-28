@@ -1,47 +1,27 @@
 $(document)
   .ready(function() {
-
-    var changeSides = function() {
-        $('.ui.shape')
-          .eq(0)
-          .shape('flip over')
-          .end()
-          .eq(1)
-          .shape('flip over')
-          .end()
-          .eq(2)
-          .shape('flip back')
-          .end()
-          .eq(3)
-          .shape('flip back')
-          .end();
-      },
-      validationRules = {
-        firstName: {
-          identifier: 'email',
-          rules: [{
-            type: 'empty',
-            prompt: 'Please enter an e-mail'
-          }, {
-            type: 'email',
-            prompt: 'Please enter a valid e-mail'
-          }]
-        }
-      };
-
+    // $('.ui.sticky')
+    //   .sticky({
+    //     context: '#bod'
+    //   });
     $('.ui.dropdown')
       .dropdown({
         on: 'hover'
       });
-
-    $('.ui.form')
-      .form(validationRules, {
-        on: 'blur'
-      });
-
     $('.masthead .information')
-      .transition('scale in', 1000);
-
-    setInterval(changeSides, 3000);
-
+      .transition('scale in', 3000);
+    $(function() {
+      $('.icon').click(function(event) {
+        event.preventDefault();
+        var href = $(this).parent().attr('href');
+        $(this).transition({
+          animation: 'bounce',
+          duration: 1000,
+          interval: 200,
+          onComplete: function() {
+            window.location = href;
+          }
+        });
+      });
+    });
   });
