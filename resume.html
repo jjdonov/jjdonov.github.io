@@ -11,153 +11,160 @@
   <link rel="stylesheet" type="text/css" href="css/site.css">
   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
   <script src="js/semantic.min.js"></script>
-  <script src="js/homepage.js"></script>
+  <script src="js/site.js"></script>
 </head>
 
-<body>
-  <div class="ui inverted segment">
-    <div class="ui page grid">
+<body id="home">
+  <div class="ui fixed main menu">
+    <a href="index.html">
+      <div class="header item">jjdonov</div>
+    </a>
+    <div class="menu right">
+      <div class="ui dropdown item">
+        About<i class="dropdown icon"></i>
+        <div class="menu">
+          <a class="item" href="about.html">About Me</a>
+          <a class="item" href="resume.html">Experience</a>
+        </div>
+      </div>
+      <a class="item" href="#">Projects</a>
+      <a class="item" href="interests.html">Interests</a>
+      <div class="header item right">
+        ∀ &#8339;
+      </div>
+    </div>
+  </div>
+  <div class="ui vertical segment">
+    <div class="ui centered page grid">
       <div class="column">
-        <div class="ui menu">
-          <a href="index.html">
-            <div class="header item">jjdonov</div>
-          </a>
-          <div class="header item right">
-            ∀ &#8339;
+        <h1>Resume</h1>
+        <h2 class="ui header">
+          <div class="content">
+            Experience
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="ui centered page grid">
-    <div class="column">
-      <h1>Resume</h1>
-      <h2 class="ui header">
-        <div class="content">
-          Experience
-        </div>
-      </h2>
-      <div class="ui segment">
-        <h3 class="ui header">
-        <i class="red suitcase icon"></i>
-        <div class="content">
-          GT Nexus, Inc.
-        </div>
-      </h3>
-        <div class="ui list">
-          <div class="item">
-            Senior Software Engineer
+        </h2>
+        <div class="ui shadowed segment">
+          <h3 class="ui header">
+          <i class="dark suitcase icon"></i>
+          <div class="content">
+            GT Nexus, Inc.
           </div>
-          <div class="item">
-            <div class="fourteen wide column">
-              <div class="ui two column grid">
-                <div class="column">
-                  <i class="map marker icon"></i>Oakland, California
-                </div>
-                <div class="column">
-                  <i class="calendar icon"></i>August 2014&#8212;Present
+        </h3>
+          <div class="ui list">
+            <div class="item">
+              Senior Software Engineer
+            </div>
+            <div class="item">
+              <div class="fourteen wide column">
+                <div class="ui two column grid">
+                  <div class="column">
+                    <i class="map marker icon"></i>Oakland, California
+                  </div>
+                  <div class="column">
+                    <i class="calendar icon"></i>August 2014&#8212;Present
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="item">
-            <i class="top aligned right triangle icon"></i>
-            <div class="content">
-              Rearchitected open source developer tool for use with the AppXpress API and Modules.
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="ui segment">
-        <h3 class="ui header">
-        <i class="red suitcase icon"></i>
-        <div class="content">
-          JPMorgan Chase &amp; Co.
-        </div>
-      </h3>
-        <div class="ui list">
-          <div class="item">
-            Compliance Technology Full Stack Software Engineer
-          </div>
-          <div class="item">
-            <div class="fourteen wide column">
-              <div class="ui two column grid">
-                <div class="column">
-                  <i class="map marker icon"></i>Jersey City, New Jersey
-                </div>
-                <div class="column">
-                  <i class="calendar icon"></i>June 2012&#8212;September 2014
-                </div>
+            <div class="item">
+              <i class="top aligned right triangle icon"></i>
+              <div class="content">
+                Rearchitected open source developer tool for use with the AppXpress API and Modules.
               </div>
             </div>
           </div>
-          <div class="item">
-            <i class="top aligned right triangle icon"></i>
-            <div class="content">
-              Designed and implemented multitier web application leveraging an Oracle, Ibatis, Java, Spring, JSP, HTML, CSS, JavaScript, and JQuery stack. The application maintains a database of senior employees who are subject to material non-public information, and
-              is used globally within the firm’s Investment Bank.
-            </div>
-          </div>
-          <div class="item">
-            <i class="top aligned right triangle icon"></i>
-            <div class="content">
-              Interfaced with business team to gather requirements, iterated through prototypes, and ultimately delivered project that was mandated by the firm’s Operating Committee. The automated reporting system is implemented via Autosys, Shell Scripts, SQL*Plus,
-              and Stored Procedures.
-            </div>
-          </div>
-          <div class="item">
-            <i class="top aligned right triangle icon"></i>
-            <div class="content">
-              Took ownership of new file upload and download service. Responsible for entire implementation, from UI to servlet, through the data access layer. Adobe Flex, Java, Spring, Oracle, SharePoint repository.
-            </div>
-          </div>
-          <div class="item">
-            <i class="top aligned right triangle icon"></i>
-            <div class="content">
-              Eliminated chance for human error and increased team productivity by approximately 3 hours per release cycle by developing a Python command line utility to compare contents of directories against release scripts in order to check for correctness.
-            </div>
-          </div>
-          <div class="item">
-            <i class="top aligned right triangle icon"></i>
-            <div class="content">
-              Maintain application suite in the Conflicts Reporting System space. Responsibilities include bug fixes, the refactoring of inefficient or poorly written code, and the design, development, and implementation of new features, leveraging Agile methodology.
-            </div>
-          </div>
         </div>
-      </div>
-      <h2 class="ui header">
-        <div class="content">
-          Education
-        </div>
-      </h2>
-      <div class="ui segment">
-        <h3 class="ui section header">
-        <i class="red student icon"></i>
-        <div class="content">
-          Syracuse University
-        </div>
-      </h3>
-        <div class="ui list">
-          <div class="item">
-            <div class="content">
-              L.C. Smith College of Engineering and Computer Science,</br>
-              Bachelor of Science,cum laude, in Computer Science.
-            </div>
+        <div class="ui segment">
+          <h3 class="ui header">
+          <i class="dark suitcase icon"></i>
+          <div class="content">
+            JPMorgan Chase &amp; Co.
           </div>
-          <div class="item">
-            <i class="trophy icon"></i>
-            <div class="content">
-              Award For Outstanding Achievement in Computer and Information Science
+        </h3>
+          <div class="ui list">
+            <div class="item">
+              Compliance Technology Full Stack Software Engineer
             </div>
-          </div>
-          <div class="item">
-            <div class="fourteen wide column">
-              <div class="ui two column grid">
-                <div class="column">
-                  <i class="map marker icon"></i>Syracuse, New York
+            <div class="item">
+              <div class="fourteen wide column">
+                <div class="ui two column grid">
+                  <div class="column">
+                    <i class="map marker icon"></i>Jersey City, New Jersey
+                  </div>
+                  <div class="column">
+                    <i class="calendar icon"></i>June 2012&#8212;September 2014
+                  </div>
                 </div>
-                <div class="column">
-                  <i class="calendar icon"></i>2008&#8212;2012
+              </div>
+            </div>
+            <div class="item">
+              <i class="top aligned right triangle icon"></i>
+              <div class="content">
+                Designed and implemented multitier web application leveraging an Oracle, Ibatis, Java, Spring, JSP, HTML, CSS, JavaScript, and JQuery stack. The application maintains a database of senior employees who are subject to material non-public information, and
+                is used globally within the firm’s Investment Bank.
+              </div>
+            </div>
+            <div class="item">
+              <i class="top aligned right triangle icon"></i>
+              <div class="content">
+                Interfaced with business team to gather requirements, iterated through prototypes, and ultimately delivered project that was mandated by the firm’s Operating Committee. The automated reporting system is implemented via Autosys, Shell Scripts, SQL*Plus,
+                and Stored Procedures.
+              </div>
+            </div>
+            <div class="item">
+              <i class="top aligned right triangle icon"></i>
+              <div class="content">
+                Took ownership of new file upload and download service. Responsible for entire implementation, from UI to servlet, through the data access layer. Adobe Flex, Java, Spring, Oracle, SharePoint repository.
+              </div>
+            </div>
+            <div class="item">
+              <i class="top aligned right triangle icon"></i>
+              <div class="content">
+                Eliminated chance for human error and increased team productivity by approximately 3 hours per release cycle by developing a Python command line utility to compare contents of directories against release scripts in order to check for correctness.
+              </div>
+            </div>
+            <div class="item">
+              <i class="top aligned right triangle icon"></i>
+              <div class="content">
+                Maintain application suite in the Conflicts Reporting System space. Responsibilities include bug fixes, the refactoring of inefficient or poorly written code, and the design, development, and implementation of new features, leveraging Agile methodology.
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2 class="ui header">
+          <div class="content">
+            Education
+          </div>
+        </h2>
+        <div class="ui segment">
+          <h3 class="ui section header">
+          <i class="dark student icon"></i>
+          <div class="content">
+            Syracuse University
+          </div>
+        </h3>
+          <div class="ui list">
+            <div class="item">
+              <div class="content">
+                L.C. Smith College of Engineering and Computer Science,</br>
+                Bachelor of Science,cum laude, in Computer Science.
+              </div>
+            </div>
+            <div class="item">
+              <i class="trophy icon"></i>
+              <div class="content">
+                Award For Outstanding Achievement in Computer and Information Science
+              </div>
+            </div>
+            <div class="item">
+              <div class="fourteen wide column">
+                <div class="ui two column grid">
+                  <div class="column">
+                    <i class="map marker icon"></i>Syracuse, New York
+                  </div>
+                  <div class="column">
+                    <i class="calendar icon"></i>2008&#8212;2012
+                  </div>
                 </div>
               </div>
             </div>
@@ -166,8 +173,6 @@
       </div>
     </div>
   </div>
-  </br>
-  </br>
   <!-- footer -->
   <div class="ui footer vertical segment">
     <div class="ui stackable center aligned page grid">
@@ -175,25 +180,23 @@
         <div class="ui three column center aligned stackable grid">
           <div class="column">
             <a href="http://linkedin.com/in/jjdonov">
-              <i class="huge linkedin icon"></i>
+              <i class="yellow huge linkedin icon"></i>
             </a>
           </div>
           <div class="column">
             <a href="http://www.github.com/jjdonov">
-              <i class="huge github icon"></i>
+              <i class="yellow huge github icon"></i>
             </a>
           </div>
           <div class="column">
             <a href="https://twitter.com/john_jdonovan">
-              <i class="huge twitter icon"></i>
+              <i class="yellow huge twitter icon"></i>
             </a>
           </div>
         </div>
       </div>
     </div>
   </div>
-  </div>
-
 </body>
 
 </html>

@@ -8,52 +8,70 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <title>jjdonov</title>
   <link rel="stylesheet" type="text/css" href="css/semantic.min.css">
-  <!--<link rel="stylesheet" type="text/css" href="css/components/card.css">-->
   <link rel="stylesheet" type="text/css" href="css/site.css">
   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
   <script src="js/semantic.min.js"></script>
-  <script src="js/homepage.js"></script>
+  <script src="js/site.js"></script>
+  <script src="js/about.js"></script>
 </head>
 
 <body id="home">
-  <div class="ui inverted segment">
-    <div class="ui page grid">
-      <div class="column">
-        <div class="ui menu">
-          <a href="index.html">
-            <div class="header item">jjdonov</div>
-          </a>
-          <div class="header item right">
-            ∀ &#8339;
-          </div>
+  <div class="ui fixed main menu">
+    <a href="index.html">
+      <div class="header item">jjdonov</div>
+    </a>
+    <div class="menu right">
+      <div class="ui dropdown item">
+        About<i class="dropdown icon"></i>
+        <div class="menu">
+          <a class="item" href="about.html">About Me</a>
+          <a class="item" href="resume.html">Experience</a>
         </div>
+      </div>
+      <a class="item" href="#">Projects</a>
+      <a class="item" href="interests.html">Interests</a>
+      <div class="header item right">
+        ∀ &#8339;
       </div>
     </div>
   </div>
-  <div class="ui stackable segment">
-    <div class="ui four column centered grid">
-      <div class="column">
-        <img class="ui medium circular image" src="media/img/me.jpg">
+  <!--body-->
+  <div class="ui vertical segment">
+    <div class="ui fourteen wide page grid">
+      <div class="ui center aligned four wide column">
+        <div class="ui sticky">
+          <img class="ui medium circular image" src="media/img/me1.jpg">
+          <a href="#" class="ui button">
+            <i class="mail icon"></i>Lets get in touch
+          </a>
+        </div>
       </div>
-      <div class="column">
-        <h3>Pragmatic Day Dreamer</h3>
+      <div id="content" class="ui ten wide column">
+        <h1 class="ui header">
+          Pragmatic Day Dreamer
+        </h1>
         <p>
           I am a software engineer living in Oakland, California. I like to spend my time snowboarding, hiking, going on road trips, drawing, and of course writing code.
         </p>
-        <a href="#" class="ui label">
-          <i class="mail icon"></i>Lets get in touch
-        </a>
+        <p>
+          Spending a lot of time with legacy code, I can understand the frustrations that come with it. Unlike many of my peers, I refuse to follow the "if it isn't' broke, don't fix it" mentality. Such practices will only lead to bigger issues down the road and
+          ultimately lead to longer development cycles and headaches for everyone. I am looking to join a team of forward thinking individuals who believe in continuos improvement, clean code, and design new systems with maintainability and robustness
+          in mind.
+        </p>
+        <p>
+          At Syracuse University I excelled in my coursework while maintaining campus involvement and an on campus internship with JPMorgan & Chase. I graduated cum laude, and was presented with the Award For Outstanding Achievement in Computer and Information
+          Science at convocation. After graduating, I transitioned from my intern role to a full time Application Developer in the Corporate Compliance Technology space. Here I demonstrated my ability to be a strong team player, as much as an individual
+          contributor. Rapidly learning various business aspects of the Compliance space, I developed strong relationships with users and am trusted to provide quick response with production support issues on top of my development responsibilities.
+        </p>
+        <p>
+          In the July of 2013, I had the unique opportunity to co-lead a mobile application project for a local non-profit. After meeting with the client and tightening requirements, it was my responsibility to choose the technology stack which best suited the
+          client's needs. From there, as lead developer, I was tasked with bringing the rest of the team up to speed on the overall architecture of the application and the API's we would be interacting with before beginning development. This project was
+          done as part of the JPMorgan’s Technology For Social Good Program. A volunteer initiative that is taken on in addition to one’s ordinary responsibilities and obligations, and is expected to be completed primarily outside of your normal working
+          hours. I am proud to say that we hit our deadlines, and in October delivered an Android Application leveraging the Facebook API, and utilizing the Google App Engine as a backend. Out of 40 teams, we were recognized as one of the few who had
+          the most impact.
+        </p>
       </div>
     </div>
-  </div>
-
-
-
-
-
-
-
-
   </div>
   <!-- footer -->
   <div class="ui footer vertical segment">
@@ -62,25 +80,23 @@
         <div class="ui three column center aligned stackable grid">
           <div class="column">
             <a href="http://linkedin.com/in/jjdonov">
-              <i class="huge linkedin icon"></i>
+              <i class="yellow huge linkedin icon"></i>
             </a>
           </div>
           <div class="column">
             <a href="http://www.github.com/jjdonov">
-              <i class="huge github icon"></i>
+              <i class="yellow huge github icon"></i>
             </a>
           </div>
           <div class="column">
             <a href="https://twitter.com/john_jdonovan">
-              <i class="huge twitter icon"></i>
+              <i class="yellow huge twitter icon"></i>
             </a>
           </div>
         </div>
       </div>
     </div>
   </div>
-  </div>
-
 </body>
 
 </html>

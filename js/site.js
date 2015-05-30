@@ -1,17 +1,19 @@
 $(document)
   .ready(function() {
-    // $('.ui.sticky')
-    //   .sticky({
-    //     context: '#bod'
-    //   });
     $('.ui.dropdown')
       .dropdown({
         on: 'hover'
       });
-    $('.masthead .information')
-      .transition('scale in', 3000);
+      $('a[href="#"]').popup({
+        on: 'click',
+        content: 'Coming Soon!'
+      });
+      $('a[href="#"]').click(function(event) {
+        event.preventDefault();
+
+      });
     $(function() {
-      $('.icon').click(function(event) {
+      $('.footer .icon').click(function(event) {
         event.preventDefault();
         var href = $(this).parent().attr('href');
         $(this).transition({
@@ -24,4 +26,5 @@ $(document)
         });
       });
     });
+
   });

@@ -12,43 +12,34 @@
   <link rel="icon" type="image/svg" href="faviconsm.png">
   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
   <script src="js/semantic.min.js"></script>
-  <script src="js/homepage.js"></script>
+  <script src="js/site.js"></script>
 </head>
 
 <body id="home">
   <!-- header -->
+  <div class="ui fixed main menu">
+    <a href="index.html">
+      <div class="header item">jjdonov</div>
+    </a>
+    <div class="menu right">
+      <div class="ui dropdown item">
+        About<i class="dropdown icon"></i>
+        <div class="menu">
+          <a class="item" href="about.html">About Me</a>
+          <a class="item" href="resume.html">Experience</a>
+        </div>
+      </div>
+      <a class="item" href="#">Projects</a>
+      <a class="item" href="interests.html">Interests</a>
+      <div class="header item right">
+        ∀ &#8339;
+      </div>
+    </div>
+  </div>
   <div class="ui masthead segment">
-    <div class="ui page grid">
+    <div class="ui one column centered page grid">
       <div class="column">
-        <div id="corenav" class="ui sticky menu">
-          <a href="index.html">
-            <div class="header item">jjdonov</div>
-          </a>
-          <div class="menu right">
-            <div class="ui dropdown item">
-              About<i class="dropdown icon"></i>
-              <div class="menu">
-                <a class="item" href="about.html">About Me</a>
-                <a class="item" href="resume.html">Experience</a>
-              </div>
-            </div>
-            <a class="item" href="#">Projects</a>
-            <a class="item" href="interests.html">Interests</a>
-            <div class="header item right">
-              ∀ &#8339;
-            </div>
-          </div>
-        </div>
-        <div class="ui hidden transition information">
-          <h1 class="ui inverted header">
-            An Old Cat Can Learn New Tricks
-          </h1>
-          <h2>if(self.isTired()) { self.takeLaNap(); } self.fireZeMissiles();
-          </h2>
-          <p>
-            Thanks for stopping by.
-          </p>
-        </div>
+        <img class="ui centered circular medium image greyhov" src="media/img/shred.jpg">
       </div>
     </div>
   </div>
@@ -56,7 +47,7 @@
   <div id="bod" class="ui vertical feature segment">
     <div class="ui centered page grid">
       <div class="fourteen wide column">
-        <div class="ui three column center aligned stackable divided grid">
+        <div class="ui two column center aligned stackable divided grid">
           <div class="column">
             <div class="ui icon header">
               <i class="student icon"></i> Experience
@@ -76,7 +67,7 @@
             <p>
               <a class="parple ui right labeled icon button" href="http://www.github.com/jjdonov">
 								Fork me!
-								<i class="up chevron icon"></i>
+								<i class="fork icon"></i>
 							</a>
             </p>
           </div>
