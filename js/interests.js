@@ -1,7 +1,8 @@
 $(document).ready(function() {
-  $('.gallery.grid > div > img').click(function() {
-    console.log("something");
-    $(this).transition('bounce');
-    $(".ui.dimmer").dimmer('show');
+  $('img').click(function() {
+    if($(this) !== $('#gal')) {
+      $('#gal').attr('src', $(this).attr('src'));
+    }
+    $('.ui.dimmer').dimmer('toggle');
   });
 });
