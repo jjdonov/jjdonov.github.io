@@ -47,6 +47,13 @@ i.dark.icon {
   color: #1E212A;
 }
 /*--------------
+    Gallery
+--------------*/
+.gallery.grid > div > img {
+
+}
+
+/*--------------
     Ribbons
 ---------------*/
 
@@ -149,6 +156,3 @@ img.greyhov:hover {
   -webkit-filter: grayscale(0%);
   filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
 }
-/*div.ui.fixed.main.menu + .ui.segment {
-  margin-top : 10em;
-}*/

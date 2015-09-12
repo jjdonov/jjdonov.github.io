@@ -1,6 +1,7 @@
-$(function() {
-  $('.ui.medium.circular.image').click(function() {
+$(document).ready(function() {
+  $('.gallery.grid > div > img').click(function() {
+    console.log("something");
     $(this).transition('bounce');
-    $("#meee").modal('show');
+    $(".ui.dimmer").dimmer('show');
   });
 });

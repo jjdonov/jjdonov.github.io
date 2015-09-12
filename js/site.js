@@ -14,15 +14,10 @@ $(document)
       });
     $(function() {
       $('.footer .icon').click(function(event) {
-        event.preventDefault();
-        var href = $(this).parent().attr('href');
         $(this).transition({
           animation: 'bounce',
           duration: 1000,
-          interval: 200,
-          onComplete: function() {
-            window.location = href;
-          }
+          interval: 200
         });
       });
     });
